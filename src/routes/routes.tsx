@@ -1,8 +1,8 @@
-import { App } from '@/components/app';
+import { MainPage } from '@/pages/main-page';
 import { Route, Routes } from 'react-router-dom';
 
 export const routes = (
 	<Routes>
-		<Route path='/' element={<App />} />
+		<Route path='/' element={<MainPage />} />
 	</Routes>
 );

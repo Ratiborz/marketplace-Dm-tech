@@ -1,0 +1,49 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f2f6fa;
+	padding: 13px 32px 0 32px;
+}
+
+.choice_buttons {
+	max-width: 145px;
+	width: 100%;
+}
+
+.tabs {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.tabs {
+	width: 100%;
+
+	:global {
+		.ant-tabs-nav {
+			.ant-tabs-nav-wrap {
+				.ant-tabs-nav-list {
+					width: 100%;
+					.ant-tabs-tab {
+						width: 50%;
+						justify-content: center;
+						margin: 0;
+						padding: 10px 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+.basket {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 117px;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+}

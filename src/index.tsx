@@ -4,10 +4,10 @@ import { Provider } from 'react-redux';
 
 import { store } from '@/redux/configure-store';
 import { routes } from '@/routes/routes';
+import { BrowserRouter } from 'react-router-dom';
 
 import './index.css';
 import 'normalize.css';
-import { BrowserRouter } from 'react-router-dom';
 
 const domNode = document.getElementById('root') as HTMLDivElement;
 const root = createRoot(domNode);
